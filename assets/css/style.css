@@ -1,0 +1,29 @@
+button, div, form, input {
+      margin: 10px;
+    }
+
+p {
+	margin: 5px;
+	font-family: 'Anton', Times, Times New Roman, serif;
+	color: lightgrey;
+}
+
+h1 {
+	font-family: 'Anton', Times, Times New Roman, serif;
+	color: lightgrey;
+}
+
+label {
+	font-family: 'Anton', Times, Times New Roman, serif;
+	color: lightgrey;
+	letter-spacing: 2px;
+}
+
+body {
+	background-color: black;
+}
+
+.titleCase{
+	text-transform:capitalize;
+}
+
