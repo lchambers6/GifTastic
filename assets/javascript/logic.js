@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     function showanimal() {
       var spaceAnimal = $(this).data('name');
-      var animal = (spaceAnimal).replace(' ', '+');;
+      var animal = (spaceAnimal).split(' ').join('+');
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&rating=pg-13&api_key=dc6zaTOxFJmzC";
       
       url = [];
